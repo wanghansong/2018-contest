@@ -255,9 +255,6 @@ let game = {
         }
         this.state=false; //游戏结束
         return true;
-    },
-    moveAnimation(){
-        
     }
 };
 
