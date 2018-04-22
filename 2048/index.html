@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2048游戏</title>
+    <link rel="stylesheet" href="./game.css">
+</head>
+<body>
+  <div id="container">
+        <header id="head">分数:<span id="score">0</span></header>
+        <div id="panel">
+           <div id="d00" class="cell"></div>
+           <div id="d01" class="cell"></div>
+           <div id="d02" class="cell"></div>
+           <div id="d03" class="cell"></div>
+           <div id="d10" class="cell"></div>
+           <div id="d11" class="cell"></div>
+           <div id="d12" class="cell"></div>
+           <div id="d13" class="cell"></div>
+           <div id="d20" class="cell"></div>
+           <div id="d21" class="cell"></div>
+           <div id="d22" class="cell"></div>
+           <div id="d23" class="cell"></div>
+           <div id="d30" class="cell"></div>
+           <div id="d31" class="cell"></div>
+           <div id="d32" class="cell"></div>
+           <div id="d33" class="cell"></div>
+        </div>
+        
+        <div id="control">
+          <div class="left"></div>
+          <div class="right"></div>
+          <div class="up"></div>
+          <div class="down"></div>
+        </div>
+        <footer id="foot">
+            说明：可以使用鼠标按上面操作盘，也可以使用键盘的上下左右键操作，在移动端可以通过手势滑动操作
+        </footer>
+  </div>
+  
+   
+   <div id="alert">
+      <div id="alertContainer">
+          <h3 id="alertH3">Sorry!游戏结束！</h3>
+           <div>分数：<span id="finalScore"></span></div>
+           <div><a id="again" >再来一次</a></div>
+      </div>
+       
+   </div>
+
+
+<script src="./game.js"></script>
+</body>
+</html>
